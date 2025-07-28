@@ -47,7 +47,7 @@ header {
     opacity: 0.8;
     background-color: black;
     color: aliceblue;
-    padding: 20px;
+    padding: 40px;
 
     font-size: xx-large;
     border-radius: 40px;
@@ -72,25 +72,26 @@ header {
     justify-content: center;
 
     flex-wrap: wrap;
-    gap: 30px;
-    padding: 30px;
+    gap: 40px;
+    padding: 40px;
 
 }
 #menuBox{
-     opacity: 0.8;
+    opacity: 0.8;
     background-color: black;
     color: aliceblue;
     padding: 40px;
-
+    max-height: 770px;
     font-size: xx-large;
     border-radius: 40px;
     overflow: scroll;
 
 
-    display: flex;height: 100%;
+    display: flex;
+
     flex-wrap: wrap;
     gap: 40px;
-    justify-content: center
+    justify-content: center;
 
 }
 #aboutText{
@@ -113,7 +114,7 @@ border: 2px white solid;
 border-radius: 40px;
 padding: 15px;
 gap: 15px;
-width: 550px;
+/* width: 550px; */
 height: 230px;
 }
 .foodtext{
